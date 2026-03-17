@@ -1,0 +1,324 @@
+sample_accession,attribute_tag,attribute_value
+SAMN15693165,collection_date,2017-11-10
+SAMN15693165,insdc_secondary_accession,SRS7135793
+SAMN15693165,ncbi_submission_package,MIMS.me.soil.5.0
+SAMN15693165,depth,30cm
+SAMN15693165,organism,soil metagenome
+SAMN15693165,isolation_source,cotton rhizosphere
+SAMN15693165,elev,268m MSL
+SAMN15693165,env_broad_scale,Semi Arid Zone
+SAMN15693165,geo_loc_name,"India: Alwar, Rajasthan"
+SAMN15693165,env_medium,Soil
+SAMN15693165,lat_lon,27.53 N 76.16 E
+SAMN15693165,env_local_scale,Agricultural field
+SAMN15693165,biosamplemodel,MIMS.me
+SAMN15693165,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN15693165,ena_first_public,2020-08-03
+SAMN15693165,ena_last_update,2021-02-28
+SAMN17201847,collection_date,2019-09-22
+SAMN17201847,insdc_secondary_accession,SRS7956686
+SAMN17201847,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN17201847,organism,soil metagenome
+SAMN17201847,geo_loc_name,India
+SAMN17201847,lat_lon,20.5937 N 78.9629 E
+SAMN17201847,isolation_source,soil
+SAMN17201847,biosamplemodel,Metagenome or environmental
+SAMN17201847,ena_first_public,2021-01-02
+SAMN17201847,ena_last_update,2021-02-28
+SAMN17271210,collection_date,2019-09-22
+SAMN17271210,insdc_secondary_accession,SRS7998943
+SAMN17271210,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN17271210,organism,soil metagenome
+SAMN17271210,geo_loc_name,India
+SAMN17271210,lat_lon,20.5937 N 78.9629 E
+SAMN17271210,isolation_source,soil
+SAMN17271210,biosamplemodel,Metagenome or environmental
+SAMN17271210,ena_first_public,2021-01-10
+SAMN17271210,ena_last_update,2021-02-28
+SAMN17271293,collection_date,2019-09-22
+SAMN17271293,insdc_secondary_accession,SRS7998969
+SAMN17271293,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN17271293,organism,soil metagenome
+SAMN17271293,geo_loc_name,India
+SAMN17271293,lat_lon,20.5937 N 78.9629 E
+SAMN17271293,isolation_source,soil
+SAMN17271293,biosamplemodel,Metagenome or environmental
+SAMN17271293,ena_first_public,2021-01-10
+SAMN17271293,ena_last_update,2021-02-28
+SAMN03382613,collection_date,2014-09-17
+SAMN03382613,insdc_secondary_accession,SRS862591
+SAMN03382613,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN03382613,organism,sediment metagenome
+SAMN03382613,geo_loc_name,"India:Odisha, Paradip"
+SAMN03382613,lat_lon,20.32 N 86.62 E
+SAMN03382613,isolation_source,Soil sediment
+SAMN03382613,biosamplemodel,Metagenome or environmental
+SAMN03382613,ena_first_public,2015-03-03
+SAMN03382613,ena_last_update,2015-03-04
+SAMN32860474,collection_date,2020-12-23
+SAMN32860474,insdc_secondary_accession,SRS16545332
+SAMN32860474,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN32860474,organism,soil metagenome
+SAMN32860474,geo_loc_name,India
+SAMN32860474,lat_lon,20.5937 N 78.9629 E
+SAMN32860474,isolation_source,soil
+SAMN32860474,biosamplemodel,Metagenome or environmental
+SAMN32860474,ena_first_public,2023-01-22
+SAMN32860474,ena_last_update,2023-01-22
+SAMN32860475,collection_date,2020-12-23
+SAMN32860475,insdc_secondary_accession,SRS16545333
+SAMN32860475,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN32860475,organism,soil metagenome
+SAMN32860475,geo_loc_name,India
+SAMN32860475,lat_lon,20.5937 N 78.9629 E
+SAMN32860475,isolation_source,soil
+SAMN32860475,biosamplemodel,Metagenome or environmental
+SAMN32860475,ena_first_public,2023-01-22
+SAMN32860475,ena_last_update,2023-01-22
+SAMN32860476,collection_date,2020-12-23
+SAMN32860476,insdc_secondary_accession,SRS16545352
+SAMN32860476,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN32860476,organism,soil metagenome
+SAMN32860476,geo_loc_name,India
+SAMN32860476,lat_lon,20.5937 N 78.9629 E
+SAMN32860476,isolation_source,soil
+SAMN32860476,biosamplemodel,Metagenome or environmental
+SAMN32860476,ena_first_public,2023-01-22
+SAMN32860476,ena_last_update,2023-01-22
+SAMN37571899,collection_date,2020-12-23
+SAMN37571899,insdc_secondary_accession,SRS18998442
+SAMN37571899,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN37571899,depth,soil surface
+SAMN37571899,organism,metagenome
+SAMN37571899,elev,surface
+SAMN37571899,env_broad_scale,agricultural biome 3
+SAMN37571899,geo_loc_name,India
+SAMN37571899,env_medium,soil
+SAMN37571899,lat_lon,23.8242 N 87.4542 E
+SAMN37571899,env_local_scale,agricultural
+SAMN37571899,biosamplemodel,MIMS.me
+SAMN37571899,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN37571899,ena_first_public,2023-09-28
+SAMN37571899,ena_last_update,2023-09-28
+SAMN37571898,collection_date,2020-12-23
+SAMN37571898,insdc_secondary_accession,SRS18998441
+SAMN37571898,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN37571898,depth,soil surface
+SAMN37571898,organism,metagenome
+SAMN37571898,elev,surface
+SAMN37571898,env_broad_scale,agricultural biome 2
+SAMN37571898,geo_loc_name,India
+SAMN37571898,env_medium,soil
+SAMN37571898,lat_lon,23.8242 N 87.4542 E
+SAMN37571898,env_local_scale,agricultural
+SAMN37571898,biosamplemodel,MIMS.me
+SAMN37571898,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN37571898,ena_first_public,2023-09-28
+SAMN37571898,ena_last_update,2023-09-28
+SAMN37571897,collection_date,2020-12-23
+SAMN37571897,insdc_secondary_accession,SRS18998440
+SAMN37571897,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN37571897,depth,soil surface
+SAMN37571897,organism,metagenome
+SAMN37571897,elev,surface
+SAMN37571897,env_broad_scale,agricultural biome 1
+SAMN37571897,geo_loc_name,India
+SAMN37571897,env_medium,soil
+SAMN37571897,lat_lon,23.8242 N 87.4542 E
+SAMN37571897,env_local_scale,agricultural
+SAMN37571897,biosamplemodel,MIMS.me
+SAMN37571897,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN37571897,ena_first_public,2023-09-28
+SAMN37571897,ena_last_update,2023-09-28
+SAMN48884674,altitude,431m
+SAMN48884674,collection_date,2024-05-17
+SAMN48884674,insdc_secondary_accession,SRS25286994
+SAMN48884674,extreme_event,hot Days
+SAMN48884674,organism,soil metagenome
+SAMN48884674,annual_precpt,625milimeter or 25 inch
+SAMN48884674,agrochem_addition,Sandy soil
+SAMN48884674,env_broad_scale,Soil collected from garden containing grass
+SAMN48884674,cur_vegetation_meth,Herbs/Shrubs
+SAMN48884674,env_local_scale,soil as control sample
+SAMN48884674,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN48884674,depth,Surface
+SAMN48884674,annual_temp,24 C
+SAMN48884674,al_sat_meth,NA
+SAMN48884674,al_sat,NA
+SAMN48884674,elev,441
+SAMN48884674,collection_method,Spatula
+SAMN48884674,geo_loc_name,India: Jaipur
+SAMN48884674,env_medium,ENVO:00010483
+SAMN48884674,lat_lon,27.17797 N 75.9605 E
+SAMN48884674,biosamplemodel,MIMS.me
+SAMN48884674,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN48884674,ena_first_public,2025-08-20
+SAMN48884674,ena_last_update,2025-08-20
+SAMN49039023,collection_date,2022-12-04
+SAMN49039023,insdc_secondary_accession,SRS25363423
+SAMN49039023,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039023,depth,10 cm
+SAMN49039023,organism,metagenome
+SAMN49039023,elev,3 m
+SAMN49039023,env_broad_scale,Soil
+SAMN49039023,geo_loc_name,India: Thiruvarur
+SAMN49039023,env_medium,Soil
+SAMN49039023,lat_lon,10.7730 N 79.6370 E
+SAMN49039023,env_local_scale,Soil
+SAMN49039023,biosamplemodel,MIMS.me
+SAMN49039023,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039023,ena_first_public,2025-10-10
+SAMN49039023,ena_last_update,2025-10-10
+SAMN49039022,collection_date,2022-12-04
+SAMN49039022,insdc_secondary_accession,SRS25363422
+SAMN49039022,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039022,depth,10 cm from the topsoil
+SAMN49039022,organism,metagenome
+SAMN49039022,elev,3 m
+SAMN49039022,env_broad_scale,Soil
+SAMN49039022,geo_loc_name,India: Thiruvarur
+SAMN49039022,env_medium,Soil
+SAMN49039022,lat_lon,10.7730 N 79.6370 E
+SAMN49039022,env_local_scale,Soil
+SAMN49039022,biosamplemodel,MIMS.me
+SAMN49039022,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039022,ena_first_public,2025-10-10
+SAMN49039022,ena_last_update,2025-10-10
+SAMN49039021,collection_date,2023-03-08
+SAMN49039021,insdc_secondary_accession,SRS25363421
+SAMN49039021,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039021,depth,10 cm
+SAMN49039021,organism,metagenome
+SAMN49039021,elev,3 m
+SAMN49039021,env_broad_scale,Soil
+SAMN49039021,geo_loc_name,India: Thiruvarur
+SAMN49039021,env_medium,Soil
+SAMN49039021,lat_lon,10.7730 N 79.6370 E
+SAMN49039021,env_local_scale,Soil
+SAMN49039021,biosamplemodel,MIMS.me
+SAMN49039021,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039021,ena_first_public,2025-10-10
+SAMN49039021,ena_last_update,2025-10-10
+SAMN49039020,collection_date,2023-03-08
+SAMN49039020,insdc_secondary_accession,SRS25363420
+SAMN49039020,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039020,depth,10 cm from the topsoil
+SAMN49039020,organism,metagenome
+SAMN49039020,elev,3 m
+SAMN49039020,env_broad_scale,Soil
+SAMN49039020,geo_loc_name,India: Thiruvarur
+SAMN49039020,env_medium,Soil
+SAMN49039020,lat_lon,10.7730 N 79.6370 E
+SAMN49039020,env_local_scale,Soil
+SAMN49039020,biosamplemodel,MIMS.me
+SAMN49039020,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039020,ena_first_public,2025-10-10
+SAMN49039020,ena_last_update,2025-10-10
+SAMN49039019,collection_date,2023-10-11
+SAMN49039019,insdc_secondary_accession,SRS25363419
+SAMN49039019,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039019,depth,10 cm from the topsoil
+SAMN49039019,organism,metagenome
+SAMN49039019,elev,87 m
+SAMN49039019,env_broad_scale,Soil
+SAMN49039019,geo_loc_name,India: Neyveli
+SAMN49039019,env_medium,Soil
+SAMN49039019,lat_lon,11.5943 N 79.4571 E
+SAMN49039019,env_local_scale,Soil
+SAMN49039019,biosamplemodel,MIMS.me
+SAMN49039019,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039019,ena_first_public,2025-10-10
+SAMN49039019,ena_last_update,2025-10-10
+SAMN49039018,collection_date,2023-10-10
+SAMN49039018,insdc_secondary_accession,SRS25363418
+SAMN49039018,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039018,depth,10 cm
+SAMN49039018,organism,metagenome
+SAMN49039018,elev,87 m
+SAMN49039018,env_broad_scale,Soil
+SAMN49039018,geo_loc_name,India: Neyveli
+SAMN49039018,env_medium,Soil
+SAMN49039018,lat_lon,11.5943 N 79.4571 E
+SAMN49039018,env_local_scale,Soil
+SAMN49039018,biosamplemodel,MIMS.me
+SAMN49039018,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039018,ena_first_public,2025-10-10
+SAMN49039018,ena_last_update,2025-10-10
+SAMN49039017,collection_date,2023-01-18
+SAMN49039017,insdc_secondary_accession,SRS25363417
+SAMN49039017,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039017,depth,10 cm from the topsoil
+SAMN49039017,organism,metagenome
+SAMN49039017,elev,218 m
+SAMN49039017,env_broad_scale,Soil
+SAMN49039017,geo_loc_name,India: Namakkal
+SAMN49039017,env_medium,Soil
+SAMN49039017,lat_lon,11.3810 N 78.1658 E
+SAMN49039017,env_local_scale,Soil
+SAMN49039017,biosamplemodel,MIMS.me
+SAMN49039017,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039017,ena_first_public,2025-10-10
+SAMN49039017,ena_last_update,2025-10-10
+SAMN49039016,collection_date,2023-09-29
+SAMN49039016,insdc_secondary_accession,SRS25363416
+SAMN49039016,ncbi_submission_package,MIMS.me.soil.6.0
+SAMN49039016,depth,10 cm from the topsoil
+SAMN49039016,organism,metagenome
+SAMN49039016,elev,183 m
+SAMN49039016,env_broad_scale,Soil
+SAMN49039016,geo_loc_name,India: Erode
+SAMN49039016,env_medium,soil
+SAMN49039016,lat_lon,11.4975 N 77.1573 E
+SAMN49039016,env_local_scale,Soil
+SAMN49039016,biosamplemodel,MIMS.me
+SAMN49039016,biosamplemodel,MIGS/MIMS/MIMARKS.soil
+SAMN49039016,ena_first_public,2025-10-10
+SAMN49039016,ena_last_update,2025-10-10
+SAMN06606462,collection_date,2016-12-29
+SAMN06606462,insdc_secondary_accession,SRS2062634
+SAMN06606462,rel_to_oxygen,anaerobe
+SAMN06606462,organism,rhizosphere metagenome
+SAMN06606462,authors,"Abhisek R Bera, Vineet Vishal, Pankaj Singh, Sabdar Rahaman and Sayak Ganguli"
+SAMN06606462,samp_mat_process,Cool Pack
+SAMN06606462,samp_size,10 gram
+SAMN06606462,participating_institutes,"Bangabasi Evening College, The Biome and AIIST, PALTA"
+SAMN06606462,samp_collect_device,Standard Protocol
+SAMN06606462,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN06606462,source_material_id,Sample A
+SAMN06606462,geo_loc_name,India: West Bengal
+SAMN06606462,lat_lon,22.98 N 87.85 E
+SAMN06606462,isolation_source,Indian Sunderbans
+SAMN06606462,biosamplemodel,Metagenome or environmental
+SAMN06606462,ena_first_public,2017-03-27
+SAMN06606462,ena_last_update,2021-02-28
+SAMN10786231,collection_date,2018-01-19
+SAMN10786231,insdc_secondary_accession,SRS4275454
+SAMN10786231,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN10786231,organism,soil metagenome
+SAMN10786231,geo_loc_name,"India: Ghazipur, Uttar Pradesh"
+SAMN10786231,lat_lon,25.913824 N 83.529715 E
+SAMN10786231,isolation_source,Wheat Rhizosphere
+SAMN10786231,biosamplemodel,Metagenome or environmental
+SAMN10786231,ena_first_public,2019-11-08
+SAMN10786231,ena_last_update,2021-02-28
+SAMN11772500,collection_date,2015-10-15
+SAMN11772500,insdc_secondary_accession,SRS4791340
+SAMN11772500,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN11772500,organism,soil metagenome
+SAMN11772500,geo_loc_name,India
+SAMN11772500,lat_lon,34.49 N 75.49 E
+SAMN11772500,isolation_source,soil
+SAMN11772500,biosamplemodel,Metagenome or environmental
+SAMN11772500,ena_first_public,2020-03-01
+SAMN11772500,ena_last_update,2021-02-28
+SAMN12139125,collection_date,2017-08-07/2018-01-29
+SAMN12139125,insdc_secondary_accession,SRS5152733
+SAMN12139125,ncbi_submission_package,Metagenome.environmental.1.0
+SAMN12139125,organism,soil metagenome
+SAMN12139125,host,NOT APPLICABLE
+SAMN12139125,geo_loc_name,India
+SAMN12139125,lat_lon,NOT APPLICABLE
+SAMN12139125,isolation_source,MAPS SOIL
+SAMN12139125,biosamplemodel,Metagenome or environmental
+SAMN12139125,ena_first_public,2020-07-26
+SAMN12139125,ena_last_update,2021-02-28
