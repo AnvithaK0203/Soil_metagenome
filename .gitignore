@@ -1,0 +1,30 @@
+# Python environments and caches
+.venv/
+.wsl_venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# OS/editor noise
+Thumbs.db
+.DS_Store
+
+# Heavy biological artifacts kept local
+raw_data/recovered_fastq/
+kraken_db/
+kraken_out/*.kraken
+
+# Generated or bulky logs
+logs/**/*.log
+logs/wsl_recovery/runs/
+logs/wsl_recovery/quarantine/
+
+# Local backup or stray notebooks not intended for the clean repo
+Untitled17 (1).ipynb
+scripts/wsl_recover_missing_srrs.previous.sh
+scripts/wsl_recover_missing_srrs_autogen.sh
