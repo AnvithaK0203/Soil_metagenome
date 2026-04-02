@@ -2,6 +2,7 @@
 .venv/
 .wsl_venv/
 __pycache__/
+**/__pycache__/
 *.py[cod]
 *.pyo
 *.pyd
@@ -16,6 +17,8 @@ Thumbs.db
 
 # Heavy biological artifacts kept local
 raw_data/recovered_fastq/
+raw_data/recovered_sra_cache/
+raw_data/recovered_sra_tmp/
 kraken_db/
 kraken_out/*.kraken
 
@@ -26,5 +29,7 @@ logs/wsl_recovery/quarantine/
 
 # Local backup or stray notebooks not intended for the clean repo
 Untitled17 (1).ipynb
+raw_data/original_snapshot/Untitled17 (1).ipynb
+Results and Discussion.docx
 scripts/wsl_recover_missing_srrs.previous.sh
 scripts/wsl_recover_missing_srrs_autogen.sh

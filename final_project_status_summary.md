@@ -2,29 +2,34 @@
 
 ## What the project can claim now
 
-- The project now has a reproducible recovery toolkit running in a local `.venv`.
-- A best-available local Kraken2 feature matrix exists for 24 SRR sequencing runs.
-- Remote ENA metadata was recovered for 24 expected SRRs.
-- A final sample-level merged preview dataset has been rebuilt with explicit provenance columns.
+- The intended `24` SRR sequencing runs have been processed and validated.
+- The final rebuilt merged dataset exists at `processed_data/final_merged_dataset_preview.csv`.
+- The current merged dataset shape is `24 x 11116`.
+- Exploratory microbiome analysis has been completed.
+- A Cluster 1 Soil Microbiome Health Index prototype has been built from unsupervised microbiome metrics only.
 
 ## What the project cannot claim now
 
-- It still cannot claim crop prediction or crop recommendation readiness.
-- It still cannot claim a validated soil health index.
+- It cannot claim a validated crop-prediction system.
+- It cannot claim a validated crop-suitability model.
+- It cannot claim an externally validated soil-health diagnosis tool.
 
-## ML Feasibility
+## Current defensible scope
 
-- Supervised ML remains blocked because no valid observed crop or suitability target exists.
-- The processed sample count remains too small relative to the microbial feature space for strong predictive claims.
+- exploratory microbiome profiling
+- taxonomic filtering and aggregation
+- ordination, clustering, and similarity analysis
+- sample-level ecological metrics
+- reduced feature-table creation
+- prototype SMHI construction
 
-## SRR Recovery Status
+## Why supervised ML is still blocked
 
-- Expected SRRs: 24
-- Locally processed SRRs: 24
-- Locally metadata-merged SRRs: 10
-- Remotely metadata-enriched SRRs: 24
-- Missing locally processed SRRs: 0
+- no directly observed crop or suitability target is present
+- agronomic metadata remain incomplete
+- the sample count is small relative to the microbial feature space
 
-## Best Next Step
+## Best next step
 
-- Treat the current dataset as exploratory only unless a defensible observed target is added.
+- Use Cluster 1 as the current completed analytical deliverable.
+- Keep Cluster 2 as the future supervised workflow pending real soil chemistry and agronomic metadata.

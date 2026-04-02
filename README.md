@@ -1,82 +1,95 @@
 # Soil Microbiome Health Index Development with Metagenomic Data
 
-This repository is a recovered and rebuilt undergraduate/capstone project focused on soil metagenomics, microbiome profiling, and cautious downstream analysis for soil-health and agronomic decision-support research.
+This repository contains the recovered, validated, and reorganized state of an undergraduate soil metagenome project.
 
-## Current Project Status
+The project is currently complete as an exploratory microbiome analysis workflow. It is not a completed crop-prediction system.
 
-- Expected SRRs recovered from project evidence: `24`
-- Locally processed SRRs with validated Kraken2 outputs: `24`
-- Metadata-enriched SRRs from ENA: `24`
-- Samples in the teammate-derived metadata merge table: `10`
-- Supervised crop prediction: `not justified`
-- Current defensible scope: `exploratory microbiome plus metadata analysis`
+## Current Verified Status
 
-The biological recovery is complete for the 24 expected SRRs, but the project still does **not** contain a directly observed crop label, crop suitability label, or full soil chemistry panel suitable for supervised modeling. The current scientific conclusion is therefore exploratory, not predictive.
+- Expected SRRs processed and validated: `24`
+- Final merged dataset: `24 x 11116`
+- Current valid outputs:
+  - exploratory microbiome profiling
+  - taxonomic filtering and aggregation
+  - relative-abundance / Hellinger / CLR transformations
+  - PCA, clustering, and sample similarity analysis
+  - sample-level ecological metrics
+  - reduced feature table
+  - Cluster 1 Soil Microbiome Health Index (SMHI) prototype
+- Supervised crop prediction: `blocked`
 
-## What Is Included In GitHub
+## What Is Complete
 
-- Recovery and audit scripts in `scripts/`
-- Compact wrapper notebooks in `notebooks/`
-- Cleaned and processed tabular outputs in `cleaned_data/` and `processed_data/`
-- Recovery reports, manifests, and feasibility summaries in the repository root, `docs/`, and `outputs/`
-- Original lightweight project snapshot files in the repository root and `raw_data/original_snapshot/`
-- Kraken2 per-sample `.report` summaries in `kraken_out/`
+### Cluster 1: current active workflow
 
-## What Is Intentionally Excluded
+Path: `cluster_1_unsupervised_microbiome_profiling/`
 
-These artifacts stay local because they are too large for a clean GitHub repository or are environment-specific:
+This is the main completed workstream. It contains:
 
-- `raw_data/recovered_fastq/`  
-  Full downloaded FASTQ files, about 44.5 GB locally.
-- `kraken_db/`  
-  Local Kraken2 database files, about 13 GB locally.
-- `kraken_out/*.kraken`  
-  Raw Kraken classification streams, about 12.9 GB locally.
-- `.venv/` and `.wsl_venv/`  
-  Local Python environments.
-- bulky execution logs under `logs/**/*.log` and `logs/wsl_recovery/runs/`
+- the current analysis-ready microbiome tables
+- exploratory ordination and clustering outputs
+- sample-level ecological metrics
+- reduced exploratory feature tables
+- a transparent prototype Soil Microbiome Health Index built only from unsupervised microbiome metrics
 
-The excluded data can still be reconstructed from the committed manifests and scripts.
+### Cluster 2: future supervised workflow
 
-## Repository Layout
+Path: `cluster_2_future_supervised_modeling/`
 
-- `scripts/`  
-  Reproducible recovery, audit, cleaning, reconstruction, and feasibility scripts.
-- `docs/`  
-  Narrative recovery notes and execution summaries.
-- `outputs/`  
-  Audit tables, ENA metadata recovery outputs, feasibility reports, and model gate reports.
-- `cleaned_data/`  
-  Cleaned derivatives of the local source data.
-- `processed_data/`  
-  Sample-level manifests and merged analysis-ready tables.
-- `raw_data/original_snapshot/`  
-  Lightweight original project files preserved for forensic traceability.
-- `kraken_out/*.report`  
-  Compact taxonomic report summaries retained for provenance.
+This cluster is intentionally blocked until real sample-level metadata and targets are added:
 
-## Key Files
+- soil pH
+- NPK
+- moisture
+- temperature
+- known crop outcome / crop grown / crop suitability
 
-- `README_project_recovery.md`  
-  Recovery-oriented overview of the rescued project state.
-- `final_project_status_summary.md`  
-  High-level scientific and computational status.
-- `srr_audit_report.csv`  
-  Per-SRR completeness and provenance audit.
-- `processed_data/sample_manifest.csv`  
-  One-row-per-sample manifest with local and remote metadata context.
-- `processed_data/final_merged_dataset_preview.csv`  
-  Final merged preview dataset after recovery.
-- `dataset_audit_report.md`  
-  Dataset-by-dataset audit and readiness assessment.
-- `outputs/post_recovery_feasibility_report.md`  
-  Honest feasibility reassessment after recovery.
+## What Remains Blocked
 
-## Reproducing The Analysis
+Supervised modeling is not justified yet because:
 
-### Windows Python environment
+- there is no directly observed crop or suitability target in the current dataset
+- agronomic metadata is incomplete
+- `n = 24` remains small relative to the microbial feature space
 
-Use the committed `requirements.txt` in a local virtual environment:
+## Repository Structure
+
+- `cluster_1_unsupervised_microbiome_profiling/`
+  Active unsupervised microbiome workflow and SMHI prototype
+- `cluster_2_future_supervised_modeling/`
+  Future supervised workflow templates and planning files
+- `processed_data/`
+  Canonical rebuilt merged tables and derived matrices
+- `outputs/`
+  Canonical summaries, figures, and audit outputs
+- `scripts/`
+  Recovery, audit, reconstruction, preprocessing, and exploratory-analysis scripts
+- `docs/`
+  Reviewer-facing project summaries and methodology notes
+- `notebooks/`
+  Lightweight notebook wrappers
+- `raw_data/original_snapshot/`
+  Lightweight preserved forensic snapshot
+- `kraken_out/*.report`
+  Compact per-sample Kraken2 report summaries retained for provenance
+
+## What Is Not Included In Git
+
+Large local-only artifacts are excluded:
+
+- `raw_data/recovered_fastq/`
+- `raw_data/recovered_sra_cache/`
+- `raw_data/recovered_sra_tmp/`
+- `kraken_db/`
+- `kraken_out/*.kraken`
+- local virtual environments
+- bulky execution logs and caches
+
+See [docs/DATA_AVAILABILITY.md](docs/DATA_AVAILABILITY.md) for details.
+
+## How To Run The Python Analysis
+
+Create a local environment and install the lightweight Python requirements:
 
 ```powershell
 python -m venv .venv
@@ -84,35 +97,25 @@ python -m venv .venv
 python -m pip install -r requirements.txt
 ```
 
-### WSL / Linux bioinformatics environment
+Key exploratory workflow scripts:
 
-The heavy recovery path was run in WSL Ubuntu with Kraken2. The committed scripts assume a Linux-like environment for download and classification:
-
-- `scripts/wsl_recover_missing_srrs.sh`
-- `scripts/run_remaining_disk_truth_recovery.sh`
-- `scripts/reconstruct_extraction.py`
-
-### Scripted rebuild sequence
-
-For a clean rebuild from the committed lightweight artifacts:
-
-```bash
-python scripts/clean_data.py
-python scripts/execute_srr_recovery.py
-python scripts/disk_truth_reaudit.py
-python scripts/rebuild_final_dataset.py
-python scripts/inspect_datasets.py
-python scripts/reassess_feasibility.py
+```powershell
+python scripts/prepare_analysis_matrices.py
+python scripts/feature_filtering.py
+python scripts/prepare_microbiome_matrix.py
+python scripts/exploratory_analysis.py
+python cluster_1_unsupervised_microbiome_profiling/scripts/health_index_prototype.py
 ```
 
-## Scientific Guardrails
+## Read These Files First
 
-- One sample is currently treated as one SRR sequencing run.
-- The recovered dataset is high-dimensional relative to sample count.
-- No directly observed agronomic target is present.
-- Crop prediction and crop recommendation claims are blocked.
-- The strongest defensible scope is exploratory microbiome analysis and cautious soil-health-style feature aggregation.
+- [docs/PROJECT_STATUS.md](docs/PROJECT_STATUS.md)
+- [docs/METHODOLOGY_OVERVIEW.md](docs/METHODOLOGY_OVERVIEW.md)
+- [docs/DATA_DESCRIPTION.md](docs/DATA_DESCRIPTION.md)
+- [docs/LIMITATIONS.md](docs/LIMITATIONS.md)
+- [docs/CLUSTER_OVERVIEW.md](docs/CLUSTER_OVERVIEW.md)
+- [cluster_1_unsupervised_microbiome_profiling/outputs/soil_microbiome_health_index_report.md](cluster_1_unsupervised_microbiome_profiling/outputs/soil_microbiome_health_index_report.md)
 
-## Notes For Reviewers
+## Scientific Guardrail
 
-This repository is intentionally structured as a **clean, auditable GitHub version** of a much larger local recovery workspace. The committed code and reports are enough to understand the project, reproduce the tabular outputs, and inspect the scientific decisions, while the very large raw sequencing artifacts remain local and are referenced through the committed manifests.
+This repository currently supports exploratory microbiome profiling and a transparent prototype SMHI. It does not yet support a validated crop prediction claim.
